@@ -2596,8 +2596,9 @@ blockquote .quote_content {
   z-index: 1;
   overflow: hidden;
   position: relative;
-  padding: 250px 0 30px;
-  background-color: var(--bs-gray-dark);
+  padding: 20% 0 12%;
+  background-color: #12121280;
+  /*background-color: var(--bs-gray-dark);*/
 }
 .hero_video_bg video {
   top: 0;
@@ -2610,9 +2611,10 @@ blockquote .quote_content {
   position: absolute;
   mix-blend-mode: overlay;
 }
-.hero_video_bg p {
+/*.hero_video_bg p {
   max-width: 537px;
 }
+ */
 
 .hero_service_carousel {
   padding: 100px 0 0;
@@ -5565,7 +5567,8 @@ body:has(.shop_details) .site_header .header_bottom {
   background-color: rgba(255, 255, 255, 0.6);
 }
 [data-bs-theme=light] .hero_video_bg {
-  background-color: rgba(249, 249, 249, 0.768627451);
+  background-color: rgb(249 249 249 / 31%);
+  /*background-color: rgba(249, 249, 249, 0.768627451);*/
 }
 [data-bs-theme=light] .hero_promotion_product .carousel_1col {
   background-blend-mode: difference;
@@ -6726,4 +6729,22 @@ Responsive For Mobile & Tablet Devices
     color: #8BC34A;
     margin-top:3%;
     border-radius: 8px;
+}
+
+.newco{
+    border-radius: 6px;
+    /* background: #fff; */
+    box-shadow: 0px 2px 15px rgb(163 156 156 / 42%);
+}
+
+.newcontact{
+  box-shadow: 0px 2px 15px rgb(163 156 156 / 42%);
+    padding: 3%;
+    margin: 2%;
+}
+
+.scrollss{
+  padding-left: 3%;
+    padding-right: 3%;
+    color: #d16527;
 }
